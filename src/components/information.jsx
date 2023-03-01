@@ -38,7 +38,7 @@ const Info = (props) => {
     } else {
         return (
             <div>
-                pls enter valid fucking thing
+                Enter city
             </div>
         )
     }
