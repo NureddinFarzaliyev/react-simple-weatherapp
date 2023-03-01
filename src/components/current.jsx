@@ -4,9 +4,6 @@ import { BsThermometerSun } from 'react-icons/bs';
 import { BsSearch } from "react-icons/bs";
 import Info from "./information";
 
-const key = "b5b34e4cf0cf46e4874152046232202"
-// https://api.weatherapi.com/v1/current.json?key=b5b34e4cf0cf46e4874152046232202&q=48.8567,2.3508
-
 const Current = () => {
     // set search query to query variable
     const [query, setQuery] = useState('');
